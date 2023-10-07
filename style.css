@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap');
+
+*{margin: 0px; padding: 0px; box-sizing: border-box; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-family: Gabarito;}
+
+html{
+    font-family: Gabarito;
+}
+
+:root{
+    --headercolor: #2B3066;
+    --mainbgcolor: #1B1D30;
+    --textcolor: rgb(221, 221, 221);
+    --caixacolor: #333555;
+}
+
+
+.light-mode:root{
+    --headercolor: #dee0f3;
+    --mainbgcolor: #b9bec7;
+    --textcolor: rgb(44, 44, 44);
+    --caixacolor: #c2c2c2;
+}
+
+
+.butao{
+    margin-left: auto;
+    min-width: 0px;
+}
+
+#dark-mode-toggle{
+    width: 85px;
+    height: 50px;
+    margin-top: 23px;
+    margin-right: 45px;
+    min-width: 0px;
+}
+
+#dark-mode-toggle:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    background-color: var(--headercolor);
+    
+}
+
+.rn{
+    margin: 10px;
+    width: 250px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    background-color: var(--mainbgcolor);
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 40px;
+    color: var(--textcolor);
+    margin-left: 50px;
+    
+}
+
+.secondimage{
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    min-width: 0px;
+}
+
+.separation{
+    border: solid var(--headercolor);
+    border-bottom: 1px;
+}
+
+.secondcontainer{
+    display: flex;
+    background-color: var(--mainbgcolor);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quadrado{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caixacolor);
+    margin: 25px;
+    border-radius: 7px;
+    min-width: 0px;
+    flex-shrink: 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.imagem{
+    width: 500px;
+    height: 300px;
+    margin: 25px;
+    margin-bottom: -5px;
+    border-radius: 15px;
+    
+}
+
+.textodaimagem{
+    margin: 27px;
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 20px;
+}
+
+.freeware{
+    background-color: var(--mainbgcolor);
+    color: var(--textcolor);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    color: var(--textcolor);
+    background-color: var(--headercolor);
+    padding: 10px;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: var(--caixacolor);
+    border: 5px solid var(--caixacolor);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(37, 33, 43);
+    border-radius: 50px;
+    border: 2px solid rgb(37, 33, 43);
+}
+
+html{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(37, 33, 43) var(--caixacolor);
+}
